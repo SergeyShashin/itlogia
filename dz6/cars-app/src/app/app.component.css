@@ -275,6 +275,7 @@
   flex-wrap: wrap;
 }
 
+
 /*1200, 992, 768, 576 и 376*/
 @media (max-width: 1200px) {
   .container {
