@@ -305,14 +305,14 @@
   }
 
   .main-title {
-    font-size: 70px;   
+    font-size: 70px;
     margin-bottom: 130px;
   }
 
   .main-text {
     background: rgba(255, 255, 255, 0.7);
-  } 
- 
+  }
+
   .sub-title {
     font-size: 45px;
   }
@@ -320,10 +320,10 @@
   .car-toggle {
     margin: 10px 0;
   }
-   
+
   .car-item-action button {
     width: 98%;
-  }   
+  }
 }
 
 
@@ -355,27 +355,27 @@
     padding: 50px 25px;
   }
 
-  .car-toggle { 
+  .car-toggle {
     display: flex;
     width: 194px;
     align-items: center;
     margin: 0;
     padding: 0;
     border: none;
-   }
-  
+  }
+
   .car-toggle div {
     margin: 0;
     padding: 10px;
     text-align: center;
     font-size: 15px;
     width: 49%;
-  } 
-  
+  }
+
   .car-items {
     justify-content: center;
-  }  
-  
+  }
+
 }
 
 /*768, 576 и 376*/
@@ -393,7 +393,16 @@
     padding: 10px;
     font-size: 15px;
   }
- 
+
+  .price {
+    overflow: hidden;
+    padding: 25px;
+  }
+
+  .price .sub-title {
+    font-size: 37px;
+  }
+
 }
 
 /*576 и 376*/
@@ -429,37 +438,62 @@
     font-size: 12px;
   }
 
-   .car {
+  .car {
     padding: 25px;
   }
- 
+
   .sub-title {
     font-size: 17px;
   }
-  
-  .car-toggle div {  
+
+  .car-toggle div {
     font-size: 12px;
-  } 
-  
+  }
+
   .car-items {
     justify-content: center;
     width: 100%;
   }
-  
+
   .car-item {
     margin-top: 20px;
-  }  
-    
+  }
+
   .car-item-title {
     font-size: 15px;
     padding: 10px 0;
   }
-  
+
   .car-item-point {
     width: 33%;
     height: 92px;
     margin: 0 3px;
     font-size: 12px;
   }
-  
+
+  .price .container {
+    padding-bottom: 0;
+  }
+
+  .price .sub-title {
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 0;
+  }
+
+  .price-text {
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+
+  .price-form {
+    width: 100%;
+  }
+
+  .price-input {
+    padding: 10px;
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
 }
