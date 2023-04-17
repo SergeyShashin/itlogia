@@ -137,6 +137,8 @@ body {
   text-align: center;
   margin-top: 40px;
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  margin-right: 2px;
+  margin-left: 2px;
 }
 
 .car-item-image:hover img {
@@ -340,11 +342,6 @@ body {
 
   .car-toggle {
     margin: 10px 0;
-  }
-
-  .car-item{
-    margin-right: 2px;
-    margin-left: 2px;
   }
 }
 
