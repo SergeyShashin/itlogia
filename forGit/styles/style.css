@@ -17,6 +17,7 @@
 body {
   font-family: Roboto, sans-serif;
 }
+
 .header {
   border-bottom: 1px solid #E5E5E5;
   padding: 25px 0;
@@ -61,7 +62,7 @@ body {
 }
 
 .main {
-  background-image: url("../assets/images/background.png");
+  background-image: url("../images/background.png");
   background-position: center;
   background-size: cover;
   padding: 105px 0 154px 0;
@@ -408,9 +409,17 @@ body {
     margin-bottom: 40px;
   }
 
+  .main-text {
+    max-width: 100%;
+  }
+
   .button {
     padding: 10px;
     font-size: 15px;
+  }
+
+  .car-item {
+    max-width: 100%;
   }
 
   .price {
