@@ -268,8 +268,12 @@ body {
 .car-toggle {
   display: flex;
   width: 194px;
-  border: 1px solid gray;
   margin: 20px 0;
+}
+
+.car-toggle a {
+  text-decoration: none;
+  color: #030305;
 }
 
 .car-toggle div {
@@ -287,6 +291,16 @@ body {
 }
 
 .car-toggle div.active {
+  background: #030305;
+  color: #FFFFFF;
+}
+
+.car-toggle div:hover {
+  background: #030305;
+  color: #FFFFFF;
+}
+
+.car-toggle div:hover a {
   background: #030305;
   color: #FFFFFF;
 }
@@ -420,6 +434,10 @@ body {
 
   .car-item {
     max-width: 100%;
+  }
+
+  .car-item-image img {
+    width: 100%;
   }
 
   .price {
